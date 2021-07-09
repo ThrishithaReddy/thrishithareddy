@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a, b, temp;
+    printf("Enter the value of a : ");
+    scanf("%d", &a);
+    printf("Enter the value of b : ");
+    scanf("%d", &b);
+    printf("Before swap two value is a = %d b = %d \n", a, b);
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    printf("After  swap two value is a = %d b = %d \n", a, b);
+
+    return 0;
+}
+
+
+output:
+Enter the value of a : 10
+Enter the value of b : 20
+Before swap two values is a = 10 , b = 20
+After  swap two values is a = 20 , b = 10
